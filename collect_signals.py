@@ -39,7 +39,7 @@ def main(out="signals.jsonl", videos_per_query=10, comments_per_video=20):
                 for c in items:
                     s = c["snippet"]["topLevelComment"]["snippet"]
                     f.write(json.dumps({**base, "id": c["id"], "kind": "comment",
-                                        "text": s["textDisplay"], "author": s["authorDisplayName"]}) + "\n"); n += 1
+                                        "text": s["textOriginal"], "author": s["authorDisplayName"]}) + "\n"); n += 1
     print(f"saved {n} signals to {out}")
 
 if __name__ == "__main__":

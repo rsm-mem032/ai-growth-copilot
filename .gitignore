@@ -1,0 +1,14 @@
+# Generated data (contains public usernames/text — review before sharing)
+*.jsonl
+label_me.csv
+reviews.csv
+
+# Private interview prep
+*.docx
+
+# Python / env
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
