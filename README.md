@@ -28,6 +28,14 @@ signal-to-action-growth-demo/
   README.md
 ```
 
+## Status
+
+Prototype, in progress.
+
+- Done: signal collection. One run of `collect_signals.py` produced 736 signals (53 videos and 683 top comments) across 6 search queries.
+- Not done yet: LLM classification run, hand-labelled evaluation (agreement, Cohen's kappa, precision@10) and the human review queue. No evaluation numbers are reported until those are run.
+- The frontend currently shows illustrative sample data, not output from the pipeline.
+
 ## Frontend demo
 
 Open `index.html` in a browser, or serve the project directory with any static file server.
