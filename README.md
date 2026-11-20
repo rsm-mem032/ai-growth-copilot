@@ -1,6 +1,6 @@
-# Signal-to-Action Growth Demo
+# AI Growth Copilot
 
-A small growth intelligence demo that turns public YouTube signals into qualified opportunities and human-reviewed actions.
+A small growth intelligence prototype that turns public YouTube signals into qualified opportunities and human-reviewed actions.
 
 The repository has two parts:
 
@@ -18,7 +18,7 @@ The repository has two parts:
 ## Project structure
 
 ```text
-signal-to-action-growth-demo/
+ai-growth-copilot/
   index.html            # Frontend demo page
   styles.css            # Frontend styles
   app.js                # Frontend content and interactions

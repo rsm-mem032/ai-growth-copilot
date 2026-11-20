@@ -1,13 +1,13 @@
 const siteConfig = {
   meta: {
-    title: "Signal-to-Action Growth Demo"
+    title: "AI Growth Copilot"
   },
   brand: {
-    eyebrow: "Reusable Growth Demo • Multi-channel Signals • Human-in-the-Loop",
+    eyebrow: "Prototype • Creator & Community Signals • Human-in-the-Loop",
     mark: "GR",
-    name: "Growth Radar Template",
-    sub: "Reusable case-study demo for early-stage teams",
-    status: "Portfolio-ready template"
+    name: "AI Growth Copilot",
+    sub: "Creator & community signals prototype",
+    status: "Prototype"
   },
   hero: {
     title: "AI Growth Copilot for Global Expansion",
@@ -44,7 +44,7 @@ const siteConfig = {
     ]
   },
   dashboard: {
-    kicker: "Live Demo Dashboard",
+    kicker: "Sample Data Dashboard",
     title: "Signal monitoring for users, creators, and partnership opportunities",
     scanLabel: "Run Scan",
     exportLabel: "Export Shortlist",
